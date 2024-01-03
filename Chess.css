@@ -1,0 +1,36 @@
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+.chessboard {
+    display: grid;
+    grid-template-columns: repeat(8, 9em);
+    grid-template-rows: repeat(8, 9em);
+    gap: 1px;
+    background-color: #eee;
+}
+
+.square {
+    width: 9em;
+    height: 9em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.white {
+    background-color: #fff;
+}
+
+.black {
+    background-color: #888;
+}
+
+.piece {
+    font-size: 24px;
+}
+
+img {
+    height: 5em;
+    width: 5em;
+}
